@@ -41,13 +41,11 @@ html{
 }
 .main{
     width: 100%;
-    height: 60%;
-    background-color: antiquewhite;
+    height: 100%;
 }
 .about{
     width: 100%;
-    height: 324px;
-    border: 1px black solid;
+    height: 352px;
 }
 .titles{
     font-size: var(--primary-size);
@@ -56,7 +54,7 @@ html{
 p{
     font-size: var(--secondary-size);
     text-align: center;
-    margin: 10px auto;
+    margin: 20px 24px;
 }
 .proflie-image{
     width: 184px;
@@ -69,16 +67,51 @@ p{
     top: -40px;
 }
 .projects{
-    height: 500px;
+    height: 640px;
+}
+.projects-grid{
+    padding: 20px 40px 0px 40px;
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.projects-grid--item{
+    border: 1px black solid;
 }
 .skills{
-    height:100px;
+    height:180px;
+}
+.skills-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-container--item{
+    width: 10%;
+    height: 60%;
+    border: 1px black solid;
 }
 .contact{
-    height:100px;
+    height:146px;
+}
+.contact-container{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container--item{
+    width: 16%;
+    height: 60%;
+    border: 1px black solid;
 }
 .footer{
     width: 100%;
-    height: 20%;
-    background-color: darkgray;
+    height: 8vh;
+    background-color: cadetblue;
 }
