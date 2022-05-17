@@ -14,23 +14,37 @@ html{
 }
 .header{
     width: 100%;
-    height: 20vh;  
-    background-color: cadetblue;
+    height: 36vh;
+    background-image: url("./portada.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.download-button{
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    font-family: inherit;
+    font-size: 2rem;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #ebd3bd;
 }
 .header--list{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    margin-right: 25px;
-    margin-bottom :25px;
+    align-items: flex-start;
+    margin-right: 16px;
+    margin-top :8px;
 }
 .list-item{
     list-style: none;
     border: 1px black solid;
     border-radius: 4px;
-    background-color: aliceblue;
+    background-color: #cfd6da;
     margin: 12px;
     padding: 4px;
 }
